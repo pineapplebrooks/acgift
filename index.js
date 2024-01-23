@@ -59,7 +59,7 @@ function createColumns() {
 
     var counter = 2;
 
-    if (window.innerWidth > 800) {
+    if (window.innerWidth > 980) {
         counter = 4;
     }
 
