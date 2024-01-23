@@ -176,6 +176,7 @@
 
 body {
     margin: 0px;
+    width: 100%;
 }
 
 .bigText {
@@ -214,7 +215,7 @@ body {
     margin-top: 8px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
     .column {
         flex: 48%;
     }
