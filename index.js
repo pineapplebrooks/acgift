@@ -1,8 +1,8 @@
 
 var pictures = ["a&w.jpg", "bus159.jpg", "busnight.jpg", "cactus.jpg", "cafe1.jpg", "cafe2.jpg", "christmas.jpg",
-    "dallahorse.jpg", "dead.jpg", "dinner.jpg", "elevator.jpg", "gay.jpg", "moose1.jpg", "moose2.jpg",
+    "dallahorse.jpg", "dead.jpg", "dinner.jpg", "elevator.JPG", "gay.jpg", "moose1.jpg", "moose2.jpg",
     "nook1.jpg", "nook2.jpg", "parkroyal.jpg", "patio.jpg", "popeyes1.jpg", "popeyes2.jpg", "screw.jpg",
-    "seabus.jpg", "starbucks.jpg", "tat1.jpg", "tat2.jpg", "tatpost.jpg", "tatpre.jpg", "turtle1.jpg",
+    "seabus.JPG", "starbucks.jpg", "tat1.jpg", "tat2.jpg", "tatpost.JPG", "tatpre.jpg", "turtle1.jpg",
     "turtle2.jpg"];
 
 var fbox = document.getElementById("flexbox");
@@ -42,7 +42,7 @@ function createNums() {
             para.className = "names";
 
             var src = column[y].src;
-            var name = src.substring(src.lastIndexOf("/")+1, src.indexOf("."));
+            var name = src.substring(src.lastIndexOf("/")+1, src.lastIndexOf("."));
 
             var txt = document.createTextNode(name);
             para.appendChild(txt);
